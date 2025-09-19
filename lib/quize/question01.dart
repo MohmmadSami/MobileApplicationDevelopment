@@ -20,7 +20,6 @@ class CounterScreen extends StatefulWidget {
 }
 
 class _CounterScreenState extends State<CounterScreen> {
-  int counter = 0;
   void _addTen() {
     setState(() {
       counter += 10;
